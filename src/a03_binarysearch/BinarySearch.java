@@ -47,6 +47,10 @@ public class BinarySearch {
         }
     }
 
+    public static int findRecur(Integer[] array, int target) {
+        return find(array, 0, array.length - 1, target);
+    }
+
     // find first greater than or equals target index
     public static int findLeftGTE(Integer[] array, int target) {
         int ans = -1;
@@ -95,6 +99,7 @@ public class BinarySearch {
         Integer[] genArray = Corrector.genArray();
         Arrays.sort(genArray);
         Corrector.printResult(genArray);
+        System.out.println(findRecur(genArray, genArray[7]));
         System.out.println(findLeftGTE(genArray, 5));
         System.out.println(genArray[findLeftGTE(genArray, 5)]);
         System.out.println(findRightLTE(genArray, 5));
