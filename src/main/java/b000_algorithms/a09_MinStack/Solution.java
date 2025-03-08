@@ -1,4 +1,4 @@
-package main.java.b000_algorithms.a09_MinStack;
+package b000_algorithms.a09_MinStack;
 
 import java.util.Stack;
 

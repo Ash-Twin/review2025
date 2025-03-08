@@ -1,4 +1,4 @@
-package main.java.b000_algorithms.a07_QueueImpl;
+package b000_algorithms.a07_QueueImpl;
 
 /**
  * Queue impl using list

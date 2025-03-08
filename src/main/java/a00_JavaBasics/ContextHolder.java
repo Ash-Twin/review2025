@@ -1,4 +1,4 @@
-package main.java.a00_JavaBasics;
+package a00_JavaBasics;
 
 // 我们会用一个ContextHolder来保存更新与获取
 public class ContextHolder {

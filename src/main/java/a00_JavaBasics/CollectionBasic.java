@@ -1,4 +1,4 @@
-package main.java.a00_JavaBasics;
+package a00_JavaBasics;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

@@ -1,4 +1,4 @@
-package main.java.b000_algorithms.a06_ListAddTwoNumber;
+package b000_algorithms.a06_ListAddTwoNumber;
 
 /**
  * LeetCode 2

@@ -1,4 +1,4 @@
-package main.java.b000_algorithms.a02_corrector;
+package b000_algorithms.a02_corrector;
 
 import java.util.Arrays;
 import java.util.Random;

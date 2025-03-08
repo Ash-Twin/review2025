@@ -1,4 +1,4 @@
-package main.java.b000_algorithms.a10_CheckPowerOfThree;
+package b000_algorithms.a10_CheckPowerOfThree;
 
 /**
  * @author Chenyu Liu

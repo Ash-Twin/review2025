@@ -1,4 +1,4 @@
-package main.java.b000_algorithms.a04_stackqueue;
+package b000_algorithms.a04_stackqueue;
 
 import java.util.Stack;
 

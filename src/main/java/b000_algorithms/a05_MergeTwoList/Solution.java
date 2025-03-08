@@ -1,4 +1,4 @@
-package main.java.b000_algorithms.a05_MergeTwoList;
+package b000_algorithms.a05_MergeTwoList;
 
 /**
  * @author Chenyu Liu

@@ -1,4 +1,4 @@
-package main.java.b000_algorithms.a06_PartitionList;
+package b000_algorithms.a06_PartitionList;
 
 /**
  * Leetcode 86

@@ -1,6 +1,6 @@
-package main.java.b000_algorithms.a03_binarysearch;
+package b000_algorithms.a03_binarysearch;
 
-import main.java.b000_algorithms.a02_corrector.Corrector;
+import b000_algorithms.a02_corrector.Corrector;
 
 /**
  * @author Chenyu Liu

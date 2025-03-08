@@ -1,4 +1,4 @@
-package main.java.b000_algorithms.a08_CircularQueueImpl;
+package b000_algorithms.a08_CircularQueueImpl;
 
 /**
  * @author Chenyu Liu

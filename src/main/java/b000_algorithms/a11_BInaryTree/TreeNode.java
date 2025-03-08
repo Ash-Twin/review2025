@@ -1,4 +1,4 @@
-package main.java.b000_algorithms.a11_BInaryTree;
+package b000_algorithms.a11_BInaryTree;
 
 /**
  * @author Chenyu Liu
