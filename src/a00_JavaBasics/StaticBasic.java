@@ -50,6 +50,8 @@ class StaticExample {
             System.out.println("静态内部类的方法被调用");
         }
     }
+
+    // 匿名内部类 Runnable
 }
 
 public class StaticBasic {
@@ -61,16 +63,16 @@ public class StaticBasic {
         // 创建对象
         StaticExample obj1 = new StaticExample();
         System.out.println("obj1 的 instanceVariable: " + obj1.instanceVariable);
-        System.out.println("obj1 的 staticVariable: " + obj1.staticVariable);
+        System.out.println("obj1 的 staticVariable: " + StaticExample.staticVariable);
 
         // 修改静态变量的值
         StaticExample.staticVariable = 30;
-        System.out.println("修改 staticVariable 后，obj1 的 staticVariable: " + obj1.staticVariable);
+        System.out.println("修改 staticVariable 后，obj1 的 staticVariable: " + StaticExample.staticVariable);
 
         // 创建另一个对象
         StaticExample obj2 = new StaticExample();
         System.out.println("obj2 的 instanceVariable: " + obj2.instanceVariable);
-        System.out.println("obj2 的 staticVariable: " + obj2.staticVariable);
+        System.out.println("obj2 的 staticVariable: " + StaticExample.staticVariable);
 
         // 调用实例方法
         obj1.instanceMethod();

@@ -21,6 +21,9 @@ public class ConcurrentCollectionBasic {
     // java.util.concurrent.atomic包下的原子类
     // 基本都是用volatile关键字以及native方法（unsafe java)实现
     private ConcurrentHashMap<String, String> map  = new ConcurrentHashMap<>();
+
+
+
     private ConcurrentLinkedQueue<String> clq = new ConcurrentLinkedQueue<>();
     //还有一些BlockingCollection
 }
