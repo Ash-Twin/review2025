@@ -46,6 +46,15 @@ public class JvmBasic {
          *
          */
         System.out.println(a); // 此时程序会打印20与10，尽管修改了函数里的a，但这里打印的是main函数的变量a，func1函数的内存空间已经被释放了，也因为func1的参数是值传递
+
+        /**
+         * often full GC why?
+         * 1. 内存不足
+         * 2. 内存泄露
+         * 3. 程序经常调用System.gc()
+         *
+         */
+
     }
 
     private void func1(int a) {  // main 函数调用func，func的临时变量a计入线程调用栈
