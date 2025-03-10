@@ -22,11 +22,11 @@ spring:
   lifecycle:
     custom:
       bean:
-        name: "testbeanbean1"
+        name: "testbeanbean1" # 测试自定义bean
 # MyBatis 配置
 mybatis:
   mapper-locations: classpath:mapper/*.xml  # 指定 Mapper XML 文件的位置
   type-aliases-package: a000_SpringBasics.dao  # 指定实体类的包路径
   configuration:
     map-underscore-to-camel-case: true
-  type-handlers-package: a000_SpringBasics.common.typeHandlers
+  type-handlers-package: a000_SpringBasics.dao.typeHandlers

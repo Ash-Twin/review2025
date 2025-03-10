@@ -1,4 +1,4 @@
-package a000_SpringBasics.common.typeHandlers;
+package a000_SpringBasics.dao.typeHandlers;
 
 import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;
